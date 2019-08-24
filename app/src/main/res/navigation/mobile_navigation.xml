@@ -3,23 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@id/navigation_subjects_list">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="de.atalantus.wokabel.views.fragments.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/navigation_profile"
+        android:name="de.atalantus.wokabel.views.fragments.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="de.atalantus.wokabel.views.fragments.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_subjects_list"
+        android:name="de.atalantus.wokabel.views.fragments.SubjectsListFragment"
+        android:label="@string/title_subjects_list"
+        tools:layout="@layout/fragment_subjects_list" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="de.atalantus.wokabel.views.fragments.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_settings"
+        android:name="de.atalantus.wokabel.views.fragments.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
 </navigation>

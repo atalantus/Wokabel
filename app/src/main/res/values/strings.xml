@@ -3,7 +3,11 @@
     <string name="downgrade_dialog_message">You just downgraded the app?\\nPlease never do this again.</string>
     <string name="oops_title">Oops!</string>
     <string name="title_activity_home">Home</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="welcome_title">Welcome</string>
+    <string name="welcome_msg">To get started, please enter your forename below</string>
+    <string name="forename_hint">Forename</string>
+    <string name="welcome_btn">Let\'s go!</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_subjects_list">Subjects</string>
+    <string name="title_settings">Settings</string>
 </resources>

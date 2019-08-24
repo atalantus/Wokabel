@@ -12,20 +12,20 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
-import de.atalantus.wokabel.viewModels.HomeViewModel;
 import de.atalantus.wokabel.R;
+import de.atalantus.wokabel.viewModels.SubjectsListViewModel;
 
-public class HomeFragment extends Fragment {
+public class SubjectsListFragment extends Fragment {
 
-    private HomeViewModel homeViewModel;
+    private SubjectsListViewModel subjectsListViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        homeViewModel =
-                ViewModelProviders.of(this).get(HomeViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_home, container, false);
-        final TextView textView = root.findViewById(R.id.text_home);
-        homeViewModel.getText().observe(this, new Observer<String>() {
+        subjectsListViewModel =
+                ViewModelProviders.of(this).get(SubjectsListViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_subjects_list, container, false);
+        final TextView textView = root.findViewById(R.id.text_dashboard);
+        subjectsListViewModel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);
