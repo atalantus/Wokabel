@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Wokabel</string>
+    <string name="downgrade_dialog_message">You just downgraded the app?\\nPlease never do this again.</string>
+    <string name="oops_title">Oops!</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>
